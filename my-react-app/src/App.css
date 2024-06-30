@@ -1,0 +1,80 @@
+body{
+  background-color:#F5F0F3
+}
+
+.outerDiv{
+  margin: 30px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.SideBySide{
+  display: flex;
+}
+
+.topbutton{
+  padding: 10px 30px 10px 30px;
+  margin: 0px 10px 0px 10px;
+  color: black;
+  font-weight : 600;
+  background-color: #FAFAFA;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.lineflex{
+  display: flex;
+  align-items: center;
+}
+
+
+.line{
+  background-color: grey;
+  width: 200px;
+  height: 2px;
+  margin: 2px;
+}
+
+label{
+  font-size: x-small;
+  font-weight: 600;
+  padding-left: 6px;
+}
+
+input{
+  background-color: #FAFAFA;
+  border: 1px solid transparent ;
+  border-radius: 10px;
+  padding:10px;
+  width: auto;
+
+}
+
+.forgotpass{
+  float: right;
+  font-size: 0.67em;
+  color: #674960;
+  font-weight: bold;
+}
+
+.loginBtn{
+  background-color: #674960;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.signIn{
+  color: #674960;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+img{
+  width: 84%;
+  height: 588px;
+}
